@@ -1,3 +1,6 @@
 go 1.20
 
-use ./exercise-1-quiz
+use (
+	./exercise-1-quiz
+	./exercise-2-url-shortener
+)
