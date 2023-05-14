@@ -38,6 +38,9 @@ func main() {
 		cyoa.WithPathFunc(pathFn),
 	)
 	mux := http.NewServeMux()
+
+	// For all subpath under /story, use the handler specified by h
+	// other pages return 404
 	mux.Handle("/story/", h)
 	fmt.Printf("Starting the server on port %d\n", *port)
 

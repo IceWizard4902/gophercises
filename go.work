@@ -4,4 +4,5 @@ use (
 	./exercise-1-quiz
 	./exercise-2-url-shortener
 	./exercise-3-cyoa
+	./exercise-4-link
 )
