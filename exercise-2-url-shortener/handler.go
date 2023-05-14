@@ -2,7 +2,7 @@ package urlshort
 
 import (
 	"net/http"
-
+	// Install using go get -u gopkg.in/yaml.v2
 	"gopkg.in/yaml.v2"
 )
 
